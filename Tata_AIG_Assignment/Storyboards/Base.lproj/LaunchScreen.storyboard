@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TATA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgc-bP-eo7">
+                                <rect key="frame" x="0.0" y="346" width="393" height="61"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AIG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fk-x1-1Ta">
+                                <rect key="frame" x="0.0" y="407" width="393" height="38"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="38"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASSIGNMENT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYO-av-XTX">
+                                <rect key="frame" x="0.0" y="460" width="393" height="21.333333333333314"/>
+                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="wwu-zu-kEM">
+                                <rect key="frame" x="46.666666666666657" y="276" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="TxA-BR-iQB"/>
+                                    <constraint firstAttribute="width" secondItem="wwu-zu-kEM" secondAttribute="height" id="ddd-dX-EuQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0" green="0.19122863962018369" blue="0.6424009966748937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8fk-x1-1Ta" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0Nw-j3-Xpn"/>
+                            <constraint firstItem="8fk-x1-1Ta" firstAttribute="top" secondItem="bgc-bP-eo7" secondAttribute="bottom" id="Ers-N8-BCD"/>
+                            <constraint firstItem="AYO-av-XTX" firstAttribute="top" secondItem="8fk-x1-1Ta" secondAttribute="bottom" constant="15" id="MGn-YB-cEj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bgc-bP-eo7" secondAttribute="trailing" id="RSK-pg-LeL"/>
+                            <constraint firstItem="bgc-bP-eo7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="at5-0C-e1E"/>
+                            <constraint firstItem="wwu-zu-kEM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b2E-2C-3GN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AYO-av-XTX" secondAttribute="trailing" id="dFu-Yx-ean"/>
+                            <constraint firstItem="wwu-zu-kEM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="f9r-91-E48"/>
+                            <constraint firstItem="8fk-x1-1Ta" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="prZ-Yi-frv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8fk-x1-1Ta" secondAttribute="trailing" id="qy6-NG-0y1"/>
+                            <constraint firstItem="AYO-av-XTX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="voq-JN-lQn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aRr-vf-ha6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979.38931297709917" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1024" height="1024"/>
+    </resources>
+</document>

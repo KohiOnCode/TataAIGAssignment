@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1480AC882C181A5A002262A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AC872C181A5A002262A6 /* AppDelegate.swift */; };
+		1480AC8A2C181A5A002262A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AC892C181A5A002262A6 /* SceneDelegate.swift */; };
+		1480AC8C2C181A5A002262A6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AC8B2C181A5A002262A6 /* HomeVC.swift */; };
+		1480AC8F2C181A5A002262A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1480AC8E2C181A5A002262A6 /* Base */; };
+		1480AC922C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1480AC902C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodeld */; };
+		1480AC942C181A5B002262A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1480AC932C181A5B002262A6 /* Assets.xcassets */; };
+		1480AC972C181A5B002262A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1480AC962C181A5B002262A6 /* Base */; };
+		1480ACA22C181A5B002262A6 /* Tata_AIG_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACA12C181A5B002262A6 /* Tata_AIG_AssignmentTests.swift */; };
+		1480ACAC2C181A5B002262A6 /* Tata_AIG_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACAB2C181A5B002262A6 /* Tata_AIG_AssignmentUITests.swift */; };
+		1480ACAE2C181A5B002262A6 /* Tata_AIG_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACAD2C181A5B002262A6 /* Tata_AIG_AssignmentUITestsLaunchTests.swift */; };
+		1480ACCA2C181CAC002262A6 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACC92C181CAC002262A6 /* DetailVC.swift */; };
+		1480ACCE2C181D8C002262A6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACCD2C181D8C002262A6 /* HomeViewModel.swift */; };
+		1480ACD02C182151002262A6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACCF2C182151002262A6 /* APIManager.swift */; };
+		1480ACD22C182316002262A6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACD12C182316002262A6 /* Reachability.swift */; };
+		1480ACD62C182389002262A6 /* Webservice_Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACD52C182389002262A6 /* Webservice_Errors.swift */; };
+		1480ACD82C1823B2002262A6 /* API_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACD72C1823B2002262A6 /* API_List.swift */; };
+		1480ACE02C182C98002262A6 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACDC2C182C98002262A6 /* UIView+IBInspectable.swift */; };
+		1480ACE12C182C98002262A6 /* UIViewController+AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACDD2C182C98002262A6 /* UIViewController+AlertController.swift */; };
+		1480ACE22C182C98002262A6 /* UIViewController + Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACDE2C182C98002262A6 /* UIViewController + Haptic.swift */; };
+		1480ACE82C183676002262A6 /* ListTblViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1480ACE72C183676002262A6 /* ListTblViewCell.xib */; };
+		1480ACE92C183676002262A6 /* ListTblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACE62C183676002262A6 /* ListTblViewCell.swift */; };
+		1480ACEC2C183A34002262A6 /* HomeVC+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACEB2C183A34002262A6 /* HomeVC+Extension.swift */; };
+		1480ACEE2C183AA6002262A6 /* Extension_UitableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACED2C183AA6002262A6 /* Extension_UitableviewCell.swift */; };
+		1480ACF02C183B82002262A6 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACEF2C183B82002262A6 /* MoviesModel.swift */; };
+		1480ACF32C184308002262A6 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACF22C184308002262A6 /* ListModel.swift */; };
+		1480ACFA2C1847D5002262A6 /* BannerCollectionVwCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1480ACF92C1847D5002262A6 /* BannerCollectionVwCell.xib */; };
+		1480ACFB2C1847D5002262A6 /* BannerCollectionVwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACF82C1847D5002262A6 /* BannerCollectionVwCell.swift */; };
+		1480ACFD2C184C88002262A6 /* Extension_UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480ACFC2C184C88002262A6 /* Extension_UICollectionViewCell.swift */; };
+		1480AD092C1889CC002262A6 /* PersistantStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD072C1889CC002262A6 /* PersistantStorage.swift */; };
+		1480AD0D2C1889F8002262A6 /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD0A2C1889F8002262A6 /* ListManager.swift */; };
+		1480AD0E2C1889F8002262A6 /* ListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD0B2C1889F8002262A6 /* ListRepository.swift */; };
+		1480AD112C189280002262A6 /* CDList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD0F2C189280002262A6 /* CDList+CoreDataClass.swift */; };
+		1480AD122C189280002262A6 /* CDList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD102C189280002262A6 /* CDList+CoreDataProperties.swift */; };
+		1480AD162C198744002262A6 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD152C198744002262A6 /* HomeViewModelTests.swift */; };
+		1480AD1A2C199FDB002262A6 /* DetailVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD192C199FDB002262A6 /* DetailVCTests.swift */; };
+		1480AD1E2C19A8E2002262A6 /* IBinspectableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD1D2C19A8E2002262A6 /* IBinspectableTests.swift */; };
+		1480AD202C19BD15002262A6 /* APIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD1F2C19BD15002262A6 /* APIErrorTests.swift */; };
+		1480AD222C19C293002262A6 /* HapticFeedbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD212C19C293002262A6 /* HapticFeedbackTests.swift */; };
+		1480AD262C19D2F0002262A6 /* HomeVCTextFieldDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1480AD252C19D2F0002262A6 /* HomeVCTextFieldDelegateTests.swift */; };
+		9ED127FB3624DD1F62D6448F /* Pods_Tata_AIG_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC7AC73C9C1D1EC4016D461 /* Pods_Tata_AIG_AssignmentTests.framework */; };
+		AF1E98D19F6DA47E0C274A14 /* Pods_Tata_AIG_Assignment_Tata_AIG_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24F4302A48D79246C3C8575 /* Pods_Tata_AIG_Assignment_Tata_AIG_AssignmentUITests.framework */; };
+		D48C3AAF5FB454599B4B2DB7 /* Pods_Tata_AIG_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E4A1670A87B1AAB695184C /* Pods_Tata_AIG_Assignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1480AC9E2C181A5B002262A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1480AC7C2C181A5A002262A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1480AC832C181A5A002262A6;
+			remoteInfo = Tata_AIG_Assignment;
+		};
+		1480ACA82C181A5B002262A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1480AC7C2C181A5A002262A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1480AC832C181A5A002262A6;
+			remoteInfo = Tata_AIG_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A77A8C6A0C8CD9E61A6B9B /* Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1480AC842C181A5A002262A6 /* Tata_AIG_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tata_AIG_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1480AC872C181A5A002262A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1480AC892C181A5A002262A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1480AC8B2C181A5A002262A6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1480AC8E2C181A5A002262A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1480AC912C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tata_AIG_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		1480AC932C181A5B002262A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1480AC962C181A5B002262A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1480AC982C181A5B002262A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1480AC9D2C181A5B002262A6 /* Tata_AIG_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tata_AIG_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1480ACA12C181A5B002262A6 /* Tata_AIG_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tata_AIG_AssignmentTests.swift; sourceTree = "<group>"; };
+		1480ACA72C181A5B002262A6 /* Tata_AIG_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tata_AIG_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1480ACAB2C181A5B002262A6 /* Tata_AIG_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tata_AIG_AssignmentUITests.swift; sourceTree = "<group>"; };
+		1480ACAD2C181A5B002262A6 /* Tata_AIG_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tata_AIG_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1480ACC92C181CAC002262A6 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		1480ACCD2C181D8C002262A6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1480ACCF2C182151002262A6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1480ACD12C182316002262A6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		1480ACD52C182389002262A6 /* Webservice_Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice_Errors.swift; sourceTree = "<group>"; };
+		1480ACD72C1823B2002262A6 /* API_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_List.swift; sourceTree = "<group>"; };
+		1480ACDC2C182C98002262A6 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBInspectable.swift"; sourceTree = "<group>"; };
+		1480ACDD2C182C98002262A6 /* UIViewController+AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AlertController.swift"; sourceTree = "<group>"; };
+		1480ACDE2C182C98002262A6 /* UIViewController + Haptic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Haptic.swift"; sourceTree = "<group>"; };
+		1480ACE62C183676002262A6 /* ListTblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTblViewCell.swift; sourceTree = "<group>"; };
+		1480ACE72C183676002262A6 /* ListTblViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTblViewCell.xib; sourceTree = "<group>"; };
+		1480ACEB2C183A34002262A6 /* HomeVC+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+Extension.swift"; sourceTree = "<group>"; };
+		1480ACED2C183AA6002262A6 /* Extension_UitableviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_UitableviewCell.swift; sourceTree = "<group>"; };
+		1480ACEF2C183B82002262A6 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		1480ACF22C184308002262A6 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		1480ACF82C1847D5002262A6 /* BannerCollectionVwCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionVwCell.swift; sourceTree = "<group>"; };
+		1480ACF92C1847D5002262A6 /* BannerCollectionVwCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionVwCell.xib; sourceTree = "<group>"; };
+		1480ACFC2C184C88002262A6 /* Extension_UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UICollectionViewCell.swift; sourceTree = "<group>"; };
+		1480AD072C1889CC002262A6 /* PersistantStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistantStorage.swift; sourceTree = "<group>"; };
+		1480AD0A2C1889F8002262A6 /* ListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
+		1480AD0B2C1889F8002262A6 /* ListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRepository.swift; sourceTree = "<group>"; };
+		1480AD0F2C189280002262A6 /* CDList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1480AD102C189280002262A6 /* CDList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1480AD152C198744002262A6 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		1480AD192C199FDB002262A6 /* DetailVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVCTests.swift; sourceTree = "<group>"; };
+		1480AD1D2C19A8E2002262A6 /* IBinspectableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBinspectableTests.swift; sourceTree = "<group>"; };
+		1480AD1F2C19BD15002262A6 /* APIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorTests.swift; sourceTree = "<group>"; };
+		1480AD212C19C293002262A6 /* HapticFeedbackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackTests.swift; sourceTree = "<group>"; };
+		1480AD252C19D2F0002262A6 /* HomeVCTextFieldDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCTextFieldDelegateTests.swift; sourceTree = "<group>"; };
+		3C2E2E1E13A24EEFC160BA85 /* Pods-Tata_AIG_AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tata_AIG_AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-Tata_AIG_AssignmentTests/Pods-Tata_AIG_AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		62E4A1670A87B1AAB695184C /* Pods_Tata_AIG_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tata_AIG_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5051566D405108EB7E8C184 /* Pods-Tata_AIG_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tata_AIG_Assignment.release.xcconfig"; path = "Target Support Files/Pods-Tata_AIG_Assignment/Pods-Tata_AIG_Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		BBC7AC73C9C1D1EC4016D461 /* Pods_Tata_AIG_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tata_AIG_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8724D09DEC9F11BE9132D87 /* Pods-Tata_AIG_AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tata_AIG_AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-Tata_AIG_AssignmentTests/Pods-Tata_AIG_AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9F02DDC5BEF1D4E5E8A31C2 /* Pods-Tata_AIG_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tata_AIG_Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Tata_AIG_Assignment/Pods-Tata_AIG_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		EB781BA96A782BCA76AF6C27 /* Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F24F4302A48D79246C3C8575 /* Pods_Tata_AIG_Assignment_Tata_AIG_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tata_AIG_Assignment_Tata_AIG_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1480AC812C181A5A002262A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C3AAF5FB454599B4B2DB7 /* Pods_Tata_AIG_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1480AC9A2C181A5B002262A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED127FB3624DD1F62D6448F /* Pods_Tata_AIG_AssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1480ACA42C181A5B002262A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1E98D19F6DA47E0C274A14 /* Pods_Tata_AIG_Assignment_Tata_AIG_AssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1480AC7B2C181A5A002262A6 = {
+			isa = PBXGroup;
+			children = (
+				1480AC862C181A5A002262A6 /* Tata_AIG_Assignment */,
+				1480ACA02C181A5B002262A6 /* Tata_AIG_AssignmentTests */,
+				1480ACAA2C181A5B002262A6 /* Tata_AIG_AssignmentUITests */,
+				1480AC852C181A5A002262A6 /* Products */,
+				408B1D2BC1A43603158575E3 /* Pods */,
+				D27824B7A7FE6145780BC541 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1480AC852C181A5A002262A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1480AC842C181A5A002262A6 /* Tata_AIG_Assignment.app */,
+				1480AC9D2C181A5B002262A6 /* Tata_AIG_AssignmentTests.xctest */,
+				1480ACA72C181A5B002262A6 /* Tata_AIG_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1480AC862C181A5A002262A6 /* Tata_AIG_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				1480AD062C18899F002262A6 /* Core_Data_Files */,
+				1480ACBD2C181A8B002262A6 /* UIApplication_Delegates */,
+				1480ACC02C181AAC002262A6 /* Screens */,
+				1480ACBF2C181AA4002262A6 /* Storyboards */,
+				1480ACBC2C181A80002262A6 /* WebServices */,
+				1480ACBA2C181A6A002262A6 /* Extensions */,
+				1480ACBE2C181A9C002262A6 /* Resources */,
+				1480AC982C181A5B002262A6 /* Info.plist */,
+				1480AC902C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodeld */,
+			);
+			path = Tata_AIG_Assignment;
+			sourceTree = "<group>";
+		};
+		1480ACA02C181A5B002262A6 /* Tata_AIG_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACA12C181A5B002262A6 /* Tata_AIG_AssignmentTests.swift */,
+				1480AD152C198744002262A6 /* HomeViewModelTests.swift */,
+				1480AD192C199FDB002262A6 /* DetailVCTests.swift */,
+				1480AD1D2C19A8E2002262A6 /* IBinspectableTests.swift */,
+				1480AD1F2C19BD15002262A6 /* APIErrorTests.swift */,
+				1480AD212C19C293002262A6 /* HapticFeedbackTests.swift */,
+				1480AD252C19D2F0002262A6 /* HomeVCTextFieldDelegateTests.swift */,
+			);
+			path = Tata_AIG_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		1480ACAA2C181A5B002262A6 /* Tata_AIG_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACAB2C181A5B002262A6 /* Tata_AIG_AssignmentUITests.swift */,
+				1480ACAD2C181A5B002262A6 /* Tata_AIG_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = Tata_AIG_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		1480ACBA2C181A6A002262A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACED2C183AA6002262A6 /* Extension_UitableviewCell.swift */,
+				1480ACFC2C184C88002262A6 /* Extension_UICollectionViewCell.swift */,
+				1480ACDC2C182C98002262A6 /* UIView+IBInspectable.swift */,
+				1480ACDE2C182C98002262A6 /* UIViewController + Haptic.swift */,
+				1480ACDD2C182C98002262A6 /* UIViewController+AlertController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1480ACBC2C181A80002262A6 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACCF2C182151002262A6 /* APIManager.swift */,
+				1480ACD12C182316002262A6 /* Reachability.swift */,
+				1480ACD52C182389002262A6 /* Webservice_Errors.swift */,
+				1480ACD72C1823B2002262A6 /* API_List.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		1480ACBD2C181A8B002262A6 /* UIApplication_Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1480AC872C181A5A002262A6 /* AppDelegate.swift */,
+				1480AC892C181A5A002262A6 /* SceneDelegate.swift */,
+			);
+			path = UIApplication_Delegates;
+			sourceTree = "<group>";
+		};
+		1480ACBE2C181A9C002262A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1480AC932C181A5B002262A6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1480ACBF2C181AA4002262A6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1480AC8D2C181A5A002262A6 /* Main.storyboard */,
+				1480AC952C181A5B002262A6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1480ACC02C181AAC002262A6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACC22C181B1B002262A6 /* Home_Screen */,
+				1480ACC52C181B43002262A6 /* Detail_Screen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1480ACC12C181B10002262A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACCD2C181D8C002262A6 /* HomeViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1480ACC22C181B1B002262A6 /* Home_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACC42C181B3C002262A6 /* Model */,
+				1480ACC32C181B32002262A6 /* View */,
+				1480ACC12C181B10002262A6 /* ViewModel */,
+			);
+			name = Home_Screen;
+			sourceTree = "<group>";
+		};
+		1480ACC32C181B32002262A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACF62C1847A3002262A6 /* CollectionViewCell */,
+				1480ACE42C183636002262A6 /* TableViewCell */,
+				1480ACCB2C181CD6002262A6 /* Controller */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1480ACC42C181B3C002262A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACF12C1842E1002262A6 /* ListModel */,
+				1480ACEF2C183B82002262A6 /* MoviesModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1480ACC52C181B43002262A6 /* Detail_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACC62C181C7E002262A6 /* Model */,
+				1480ACC82C181C8D002262A6 /* View */,
+				1480ACC72C181C86002262A6 /* ViewModel */,
+			);
+			name = Detail_Screen;
+			sourceTree = "<group>";
+		};
+		1480ACC62C181C7E002262A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1480ACC72C181C86002262A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1480ACC82C181C8D002262A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACCC2C181CE8002262A6 /* Controller */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1480ACCB2C181CD6002262A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACEA2C183A19002262A6 /* Controller_Extension */,
+				1480AC8B2C181A5A002262A6 /* HomeVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1480ACCC2C181CE8002262A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACC92C181CAC002262A6 /* DetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1480ACE42C183636002262A6 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACE62C183676002262A6 /* ListTblViewCell.swift */,
+				1480ACE72C183676002262A6 /* ListTblViewCell.xib */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1480ACEA2C183A19002262A6 /* Controller_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACEB2C183A34002262A6 /* HomeVC+Extension.swift */,
+			);
+			name = Controller_Extension;
+			sourceTree = "<group>";
+		};
+		1480ACF12C1842E1002262A6 /* ListModel */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACF22C184308002262A6 /* ListModel.swift */,
+			);
+			name = ListModel;
+			sourceTree = "<group>";
+		};
+		1480ACF62C1847A3002262A6 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1480ACF82C1847D5002262A6 /* BannerCollectionVwCell.swift */,
+				1480ACF92C1847D5002262A6 /* BannerCollectionVwCell.xib */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		1480AD012C1888FF002262A6 /* CDList_NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				1480AD0F2C189280002262A6 /* CDList+CoreDataClass.swift */,
+				1480AD102C189280002262A6 /* CDList+CoreDataProperties.swift */,
+			);
+			path = CDList_NSManagedObject;
+			sourceTree = "<group>";
+		};
+		1480AD062C18899F002262A6 /* Core_Data_Files */ = {
+			isa = PBXGroup;
+			children = (
+				1480AD012C1888FF002262A6 /* CDList_NSManagedObject */,
+				1480AD0C2C1889F8002262A6 /* PersistantRepository */,
+				1480AD082C1889CC002262A6 /* PersistantStorage */,
+			);
+			path = Core_Data_Files;
+			sourceTree = "<group>";
+		};
+		1480AD082C1889CC002262A6 /* PersistantStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1480AD072C1889CC002262A6 /* PersistantStorage.swift */,
+			);
+			path = PersistantStorage;
+			sourceTree = "<group>";
+		};
+		1480AD0C2C1889F8002262A6 /* PersistantRepository */ = {
+			isa = PBXGroup;
+			children = (
+				1480AD0A2C1889F8002262A6 /* ListManager.swift */,
+				1480AD0B2C1889F8002262A6 /* ListRepository.swift */,
+			);
+			path = PersistantRepository;
+			sourceTree = "<group>";
+		};
+		408B1D2BC1A43603158575E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9F02DDC5BEF1D4E5E8A31C2 /* Pods-Tata_AIG_Assignment.debug.xcconfig */,
+				A5051566D405108EB7E8C184 /* Pods-Tata_AIG_Assignment.release.xcconfig */,
+				12A77A8C6A0C8CD9E61A6B9B /* Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.debug.xcconfig */,
+				EB781BA96A782BCA76AF6C27 /* Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.release.xcconfig */,
+				C8724D09DEC9F11BE9132D87 /* Pods-Tata_AIG_AssignmentTests.debug.xcconfig */,
+				3C2E2E1E13A24EEFC160BA85 /* Pods-Tata_AIG_AssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D27824B7A7FE6145780BC541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E4A1670A87B1AAB695184C /* Pods_Tata_AIG_Assignment.framework */,
+				F24F4302A48D79246C3C8575 /* Pods_Tata_AIG_Assignment_Tata_AIG_AssignmentUITests.framework */,
+				BBC7AC73C9C1D1EC4016D461 /* Pods_Tata_AIG_AssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1480AC832C181A5A002262A6 /* Tata_AIG_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1480ACB12C181A5B002262A6 /* Build configuration list for PBXNativeTarget "Tata_AIG_Assignment" */;
+			buildPhases = (
+				89D5476997EFE9760A97E605 /* [CP] Check Pods Manifest.lock */,
+				1480AC802C181A5A002262A6 /* Sources */,
+				1480AC812C181A5A002262A6 /* Frameworks */,
+				1480AC822C181A5A002262A6 /* Resources */,
+				6AC806D0755F24ED0547D2AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tata_AIG_Assignment;
+			productName = Tata_AIG_Assignment;
+			productReference = 1480AC842C181A5A002262A6 /* Tata_AIG_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1480AC9C2C181A5B002262A6 /* Tata_AIG_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1480ACB42C181A5B002262A6 /* Build configuration list for PBXNativeTarget "Tata_AIG_AssignmentTests" */;
+			buildPhases = (
+				C0345829AC553D5E7739B565 /* [CP] Check Pods Manifest.lock */,
+				1480AC992C181A5B002262A6 /* Sources */,
+				1480AC9A2C181A5B002262A6 /* Frameworks */,
+				1480AC9B2C181A5B002262A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1480AC9F2C181A5B002262A6 /* PBXTargetDependency */,
+			);
+			name = Tata_AIG_AssignmentTests;
+			productName = Tata_AIG_AssignmentTests;
+			productReference = 1480AC9D2C181A5B002262A6 /* Tata_AIG_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1480ACA62C181A5B002262A6 /* Tata_AIG_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1480ACB72C181A5B002262A6 /* Build configuration list for PBXNativeTarget "Tata_AIG_AssignmentUITests" */;
+			buildPhases = (
+				160C5D1881D6E22DAB50EC2A /* [CP] Check Pods Manifest.lock */,
+				1480ACA32C181A5B002262A6 /* Sources */,
+				1480ACA42C181A5B002262A6 /* Frameworks */,
+				1480ACA52C181A5B002262A6 /* Resources */,
+				68B54490761868DF97CE8FFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1480ACA92C181A5B002262A6 /* PBXTargetDependency */,
+			);
+			name = Tata_AIG_AssignmentUITests;
+			productName = Tata_AIG_AssignmentUITests;
+			productReference = 1480ACA72C181A5B002262A6 /* Tata_AIG_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1480AC7C2C181A5A002262A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1480AC832C181A5A002262A6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1480AC9C2C181A5B002262A6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1480AC832C181A5A002262A6;
+					};
+					1480ACA62C181A5B002262A6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1480AC832C181A5A002262A6;
+					};
+				};
+			};
+			buildConfigurationList = 1480AC7F2C181A5A002262A6 /* Build configuration list for PBXProject "Tata_AIG_Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1480AC7B2C181A5A002262A6;
+			productRefGroup = 1480AC852C181A5A002262A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1480AC832C181A5A002262A6 /* Tata_AIG_Assignment */,
+				1480AC9C2C181A5B002262A6 /* Tata_AIG_AssignmentTests */,
+				1480ACA62C181A5B002262A6 /* Tata_AIG_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1480AC822C181A5A002262A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480AC942C181A5B002262A6 /* Assets.xcassets in Resources */,
+				1480ACE82C183676002262A6 /* ListTblViewCell.xib in Resources */,
+				1480AC972C181A5B002262A6 /* Base in Resources */,
+				1480ACFA2C1847D5002262A6 /* BannerCollectionVwCell.xib in Resources */,
+				1480AC8F2C181A5A002262A6 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1480AC9B2C181A5B002262A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1480ACA52C181A5B002262A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160C5D1881D6E22DAB50EC2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B54490761868DF97CE8FFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests/Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC806D0755F24ED0547D2AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tata_AIG_Assignment/Pods-Tata_AIG_Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tata_AIG_Assignment/Pods-Tata_AIG_Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tata_AIG_Assignment/Pods-Tata_AIG_Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D5476997EFE9760A97E605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tata_AIG_Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0345829AC553D5E7739B565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tata_AIG_AssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1480AC802C181A5A002262A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480ACCA2C181CAC002262A6 /* DetailVC.swift in Sources */,
+				1480ACF32C184308002262A6 /* ListModel.swift in Sources */,
+				1480ACE92C183676002262A6 /* ListTblViewCell.swift in Sources */,
+				1480ACF02C183B82002262A6 /* MoviesModel.swift in Sources */,
+				1480ACE22C182C98002262A6 /* UIViewController + Haptic.swift in Sources */,
+				1480ACE12C182C98002262A6 /* UIViewController+AlertController.swift in Sources */,
+				1480ACD62C182389002262A6 /* Webservice_Errors.swift in Sources */,
+				1480ACD82C1823B2002262A6 /* API_List.swift in Sources */,
+				1480AD0E2C1889F8002262A6 /* ListRepository.swift in Sources */,
+				1480ACCE2C181D8C002262A6 /* HomeViewModel.swift in Sources */,
+				1480AC922C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodeld in Sources */,
+				1480AC8C2C181A5A002262A6 /* HomeVC.swift in Sources */,
+				1480AD112C189280002262A6 /* CDList+CoreDataClass.swift in Sources */,
+				1480AD122C189280002262A6 /* CDList+CoreDataProperties.swift in Sources */,
+				1480ACE02C182C98002262A6 /* UIView+IBInspectable.swift in Sources */,
+				1480ACEE2C183AA6002262A6 /* Extension_UitableviewCell.swift in Sources */,
+				1480ACEC2C183A34002262A6 /* HomeVC+Extension.swift in Sources */,
+				1480AC882C181A5A002262A6 /* AppDelegate.swift in Sources */,
+				1480AC8A2C181A5A002262A6 /* SceneDelegate.swift in Sources */,
+				1480AD0D2C1889F8002262A6 /* ListManager.swift in Sources */,
+				1480ACFD2C184C88002262A6 /* Extension_UICollectionViewCell.swift in Sources */,
+				1480AD092C1889CC002262A6 /* PersistantStorage.swift in Sources */,
+				1480ACD22C182316002262A6 /* Reachability.swift in Sources */,
+				1480ACFB2C1847D5002262A6 /* BannerCollectionVwCell.swift in Sources */,
+				1480ACD02C182151002262A6 /* APIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1480AC992C181A5B002262A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480AD1A2C199FDB002262A6 /* DetailVCTests.swift in Sources */,
+				1480AD222C19C293002262A6 /* HapticFeedbackTests.swift in Sources */,
+				1480ACA22C181A5B002262A6 /* Tata_AIG_AssignmentTests.swift in Sources */,
+				1480AD1E2C19A8E2002262A6 /* IBinspectableTests.swift in Sources */,
+				1480AD202C19BD15002262A6 /* APIErrorTests.swift in Sources */,
+				1480AD262C19D2F0002262A6 /* HomeVCTextFieldDelegateTests.swift in Sources */,
+				1480AD162C198744002262A6 /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1480ACA32C181A5B002262A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1480ACAC2C181A5B002262A6 /* Tata_AIG_AssignmentUITests.swift in Sources */,
+				1480ACAE2C181A5B002262A6 /* Tata_AIG_AssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1480AC9F2C181A5B002262A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1480AC832C181A5A002262A6 /* Tata_AIG_Assignment */;
+			targetProxy = 1480AC9E2C181A5B002262A6 /* PBXContainerItemProxy */;
+		};
+		1480ACA92C181A5B002262A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1480AC832C181A5A002262A6 /* Tata_AIG_Assignment */;
+			targetProxy = 1480ACA82C181A5B002262A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1480AC8D2C181A5A002262A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1480AC8E2C181A5A002262A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1480AC952C181A5B002262A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1480AC962C181A5B002262A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1480ACAF2C181A5B002262A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1480ACB02C181A5B002262A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1480ACB22C181A5B002262A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F02DDC5BEF1D4E5E8A31C2 /* Pods-Tata_AIG_Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tata_AIG_Assignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kohinoor.Tata-AIG-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1480ACB32C181A5B002262A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5051566D405108EB7E8C184 /* Pods-Tata_AIG_Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tata_AIG_Assignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kohinoor.Tata-AIG-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1480ACB52C181A5B002262A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8724D09DEC9F11BE9132D87 /* Pods-Tata_AIG_AssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kohinoor.Tata-AIG-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tata_AIG_Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tata_AIG_Assignment";
+			};
+			name = Debug;
+		};
+		1480ACB62C181A5B002262A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2E2E1E13A24EEFC160BA85 /* Pods-Tata_AIG_AssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kohinoor.Tata-AIG-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tata_AIG_Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tata_AIG_Assignment";
+			};
+			name = Release;
+		};
+		1480ACB82C181A5B002262A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A77A8C6A0C8CD9E61A6B9B /* Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kohinoor.Tata-AIG-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tata_AIG_Assignment;
+			};
+			name = Debug;
+		};
+		1480ACB92C181A5B002262A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB781BA96A782BCA76AF6C27 /* Pods-Tata_AIG_Assignment-Tata_AIG_AssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kohinoor.Tata-AIG-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tata_AIG_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1480AC7F2C181A5A002262A6 /* Build configuration list for PBXProject "Tata_AIG_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480ACAF2C181A5B002262A6 /* Debug */,
+				1480ACB02C181A5B002262A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1480ACB12C181A5B002262A6 /* Build configuration list for PBXNativeTarget "Tata_AIG_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480ACB22C181A5B002262A6 /* Debug */,
+				1480ACB32C181A5B002262A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1480ACB42C181A5B002262A6 /* Build configuration list for PBXNativeTarget "Tata_AIG_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480ACB52C181A5B002262A6 /* Debug */,
+				1480ACB62C181A5B002262A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1480ACB72C181A5B002262A6 /* Build configuration list for PBXNativeTarget "Tata_AIG_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1480ACB82C181A5B002262A6 /* Debug */,
+				1480ACB92C181A5B002262A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1480AC902C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1480AC912C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodel */,
+			);
+			currentVersion = 1480AC912C181A5A002262A6 /* Tata_AIG_Assignment.xcdatamodel */;
+			path = Tata_AIG_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1480AC7C2C181A5A002262A6 /* Project object */;
+}
