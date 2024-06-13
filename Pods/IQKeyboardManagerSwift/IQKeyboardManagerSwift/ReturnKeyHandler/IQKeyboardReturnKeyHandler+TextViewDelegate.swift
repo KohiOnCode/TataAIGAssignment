@@ -137,6 +137,7 @@ extension IQKeyboardReturnKeyHandler: UITextViewDelegate {
         aDelegate?.textViewDidChangeSelection?(textView)
     }
 
+    @available(iOS 10.0, *)
     @objc public func textView(_ aTextView: UITextView,
                                shouldInteractWith URL: URL,
                                in characterRange: NSRange,
@@ -159,6 +160,7 @@ extension IQKeyboardReturnKeyHandler: UITextViewDelegate {
         return true
     }
 
+    @available(iOS 10.0, *)
     @objc public func textView(_ aTextView: UITextView,
                                shouldInteractWith textAttachment: NSTextAttachment,
                                in characterRange: NSRange,

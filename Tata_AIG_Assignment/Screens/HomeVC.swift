@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import AdvancedPageControl
 
 class HomeVC: UIViewController, FetchHomeScreenData {
         
@@ -17,8 +16,6 @@ class HomeVC: UIViewController, FetchHomeScreenData {
     @IBOutlet weak var searchTxtFld: UITextField!
     @IBOutlet weak var ListTblVwHeight: NSLayoutConstraint!
     @IBOutlet weak var noDataLbl: UILabel!
-   // @IBOutlet weak var pageControl: AdvancedPageControlView!
-    
     @IBOutlet weak var pageControl: UIPageControl!
     
         
@@ -55,28 +52,26 @@ class HomeVC: UIViewController, FetchHomeScreenData {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.title = "Home Screen"
+        
         homeViewModel = HomeViewModel()
         homeViewModel?.delegate = self
+        
         listTblVw.delegate = self
         listTblVw.dataSource = self
+        
         bannerCollectionVw.delegate = self
         bannerCollectionVw.dataSource = self
+        
         searchTxtFld.delegate = self
+        
         ListTblViewCell.registerTableCell(for: listTblVw)
         BannerCollectionVwCell.registerCollectionViewCell(for: bannerCollectionVw)
-        homeViewModel?.fetchHomeScreenData()
-        //pageControl.drawer = ColorBlendDrawer()
-        pageControl.addTarget(self, action: #selector(self.pageControlSelectionAction(_:)), for: .valueChanged)
         
+        homeViewModel?.fetchHomeScreenData()
+        
+        pageControl.addTarget(self, action: #selector(self.pageControlSelectionAction(_:)), for: .valueChanged)
     }
-    
-    @objc func pageControlSelectionAction(_ sender: UIPageControl) {
-        let page: Int = sender.currentPage
-        self.addHapticFeedback()
-        let indxPath = IndexPath(item: page, section: 0)
-        bannerCollectionVw.scrollToItem(at: indxPath, at: .right, animated: false)
-       }
-    
+
     
     //  MARK: VIEW_WILL_APPEAR
     
@@ -84,6 +79,23 @@ class HomeVC: UIViewController, FetchHomeScreenData {
         super.viewWillAppear(true)
         GetDataCall()
     }
+    
+    
+   
+    //  MARK: GET_HOME_SCREEN_DATA_METHOD
+    
+    func GetDataCall(){
+        ogListArray = homeViewModel?.getListsData() ?? []
+    }
+
+    
+    // MARK: VIEWMODEL_DELEGATE_TO_BIND_MOVIES_DATA
+    
+    func DataFetchedCall(fetched: Bool) {
+        if fetched{
+           GetDataCall()
+        }
+    } 
     
     
     //  MARK: BANNER_SCROLL_METHOD
@@ -111,20 +123,16 @@ class HomeVC: UIViewController, FetchHomeScreenData {
         print(index)
       }
     
-    //  MARK: GET_HOME_SCREEN_DATA_METHOD
     
-    func GetDataCall(){
-        ogListArray = homeViewModel?.getListsData() ?? []
-    }
-
+    // MARK: PAGE_CONTROL_ACTION_ADDTARGET
     
-    // MARK: VIEWMODEL_DELEGATE_TO_BIND_MOVIES_DATA
+    @objc func pageControlSelectionAction(_ sender: UIPageControl) {
+        let page: Int = sender.currentPage
+        self.addHapticFeedback()
+        let indxPath = IndexPath(item: page, section: 0)
+        bannerCollectionVw.scrollToItem(at: indxPath, at: .right, animated: false)
+       }
     
-    func DataFetchedCall(fetched: Bool) {
-        if fetched{
-           GetDataCall()
-        }
-    }    
 
 }
 
