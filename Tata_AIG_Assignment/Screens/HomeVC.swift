@@ -78,6 +78,7 @@ class HomeVC: UIViewController, FetchHomeScreenData {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         GetDataCall()
+        searchTxtFld.text = ""
     }
     
     
